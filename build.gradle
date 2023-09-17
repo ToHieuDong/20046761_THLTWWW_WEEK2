@@ -23,7 +23,11 @@ tasks.withType(JavaCompile) {
 
 dependencies {
   compileOnly('jakarta.platform:jakarta.jakartaee-web-api:9.1.0')
-  implementation('org.eclipse.persistence:org.eclipse.persistence.jpa:3.0.2')
+  implementation('org.eclipse.persistence:org.eclipse.persistence.jpars:4.0.2')
+
+  // https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client
+  implementation 'org.mariadb.jdbc:mariadb-java-client:3.2.0'
+
 
   testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
   testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
