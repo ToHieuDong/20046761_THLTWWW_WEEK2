@@ -1,37 +1,38 @@
 package com.example.thltwww_week2.models;
 
+import com.example.thltwww_week2.enums.EmployeeStatus;
 import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "employee")
-public class employee {
+public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "emp_id", nullable = false)
-    private long empid;
-    @Column(name = "full_name", columnDefinition = "nvachar(150)", nullable = false)
+    @Column(name = "employee_id", nullable = false)
+    private long employeeId;
+    @Column(name = "full_name", length = 50, nullable = false)
     private String fullname;
     @Column(name = "dob", columnDefinition = "DateTime", nullable = false)
 
     private LocalDateTime dob;
-    @Column(name = "email", columnDefinition = "nvachar(150)", nullable = false)
+    @Column(name = "email", length = 50, nullable = false)
 
     private String email;
-    @Column(name = "address", columnDefinition = "nvachar(150)", nullable = false)
+    @Column(name = "address", length = 50, nullable = false)
 
     private String address;
-    @Column(name = "phone", columnDefinition = "nvachar(150)", nullable = false)
+    @Column(name = "phone", length = 50, nullable = false)
 
     private String phone;
 
-    @Column(name = "status", columnDefinition = "int", nullable = false)
+    @Column(name = "status", columnDefinition = "tinyint(4)", nullable = false)
 
-    private int status;
+    private EmployeeStatus status;
 
-    public employee(long empid, String fullname, LocalDateTime dob, String email, String address, String phone, int status) {
-        this.empid = empid;
+    public Employee(long employeeId, String fullname, LocalDateTime dob, String email, String address, String phone, EmployeeStatus status) {
+        this.employeeId = employeeId;
         this.fullname = fullname;
         this.dob = dob;
         this.email = email;
@@ -41,11 +42,11 @@ public class employee {
     }
 
     public long getEmpid() {
-        return empid;
+        return employeeId;
     }
 
     public void setEmpid(long empid) {
-        this.empid = empid;
+        this.employeeId = empid;
     }
 
     public String getFullname() {
@@ -88,21 +89,21 @@ public class employee {
         this.phone = phone;
     }
 
-    public int getStatus() {
+    public EmployeeStatus getStatus() {
         return status;
     }
 
-    public void setStatus(int status) {
+    public void setStatus(EmployeeStatus status) {
         this.status = status;
     }
 
-    public employee() {
+    public Employee() {
     }
 
     @Override
     public String toString() {
-        return "employee{" +
-                "empid=" + empid +
+        return "Employee{" +
+                "empid=" + employeeId +
                 ", fullname='" + fullname + '\'' +
                 ", dob=" + dob +
                 ", email='" + email + '\'' +
