@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1faf83e5-7dec-424a-9b65-f333ba0267c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/enums/EmployeeStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/enums/ProductStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/ProductImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/ProductPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/repositories/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/resources/resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/services/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1faf83e5-7dec-424a-9b65-f333ba0267c1" name="Changes" comment="CURD Employee">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/repositories/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/services/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/configs/ApplicationRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/configs/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -219,7 +205,11 @@
       <workItem from="1695141489595" duration="405000" />
       <workItem from="1695242355020" duration="745000" />
       <workItem from="1695243193791" duration="3000" />
-      <workItem from="1695360775630" duration="4843000" />
+      <workItem from="1695360775630" duration="4902000" />
+      <workItem from="1695479723698" duration="332000" />
+      <workItem from="1695480225432" duration="988000" />
+      <workItem from="1695482102145" duration="312000" />
+      <workItem from="1695483415247" duration="880000" />
     </task>
     <task id="LOCAL-00001" summary="create new">
       <option name="closed" value="true" />
@@ -229,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694913302428</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CURD Employee">
+      <option name="closed" value="true" />
+      <created>1695365672573</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695365672573</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +235,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create new" />
-    <option name="LAST_COMMIT_MESSAGE" value="create new" />
+    <MESSAGE value="CURD Employee" />
+    <option name="LAST_COMMIT_MESSAGE" value="CURD Employee" />
   </component>
 </project>
