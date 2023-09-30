@@ -1,6 +1,6 @@
-package com.example.thltwww_week2.models;
+package com.example.thltwww_week2.backend.models;
 
-import com.example.thltwww_week2.enums.ProductStatus;
+import com.example.thltwww_week2.backend.enums.ProductStatus;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

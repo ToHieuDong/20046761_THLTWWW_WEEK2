@@ -1,7 +1,7 @@
-package com.example.thltwww_week2.services;
+package com.example.thltwww_week2.backend.services;
 
-import com.example.thltwww_week2.models.Order;
-import com.example.thltwww_week2.repositories.OrderRepository;
+import com.example.thltwww_week2.backend.models.Order;
+import com.example.thltwww_week2.backend.repositories.OrderRepository;
 
 import java.util.List;
 

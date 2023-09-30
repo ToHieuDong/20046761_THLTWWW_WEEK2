@@ -4,12 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1faf83e5-7dec-424a-9b65-f333ba0267c1" name="Changes" comment="CURD Employee">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/repositories/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/services/OrderService.java" afterDir="false" />
+    <list default="true" id="1faf83e5-7dec-424a-9b65-f333ba0267c1" name="Changes" comment="load and ínert">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/frontend/controllers/ServletController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/frontend/model/EmployeeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/custom.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/configs/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/backend/configs/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/enums/EmployeeStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/backend/enums/EmployeeStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/enums/ProductStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/backend/enums/ProductStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/backend/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/backend/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/backend/models/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/backend/models/OrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/backend/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/ProductImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/backend/models/ProductImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/models/ProductPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/backend/models/ProductPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/repositories/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/backend/repositories/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/repositories/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/backend/repositories/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/resources/resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/backend/resources/resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/backend/services/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/services/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thltwww_week2/backend/services/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +37,24 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -55,7 +84,7 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="735ab806-3d74-4c30-bfeb-c430060a5bb7" />
+        <option name="accountId" value="108437e5-34a2-4dd9-8b15-3704b4f96e98" />
         <option name="url" value="https://github.com/ToHieuDong/20046761_THLTWWW_WEEK2.git" />
       </UrlAndAccount>
     </option>
@@ -83,8 +112,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;host&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/HK7/LTWWWIn/20046761_THLTWWW_WEEK2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -100,9 +131,17 @@
       <force-push-target remote-path="ToHieuDong" branch="host" />
     </force-push-targets>
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HK7\LTWWWIn\20046761_THLTWWW_WEEK2\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\HK7\LTWWWIn\20046761_THLTWWW_WEEK2\src\main\webapp" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="Tomcat 10.1.11" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.11" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+    <configuration name="Tomcat 10" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../../Java/JDK_21" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Gradle : com.example : THLTWWW_WEEK2-1.0-SNAPSHOT.war">
           <settings>
@@ -111,7 +150,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="b506042d-eeec-402c-9b4e-307b51dd4d9c" />
+        <option name="BASE_DIRECTORY_NAME" value="955e18d9-4f06-4fe5-bed2-d91b64a02a3f" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -119,7 +158,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50862" />
+        <option name="DEBUG_PORT" value="50223" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -210,6 +249,13 @@
       <workItem from="1695480225432" duration="988000" />
       <workItem from="1695482102145" duration="312000" />
       <workItem from="1695483415247" duration="880000" />
+      <workItem from="1695485696907" duration="96000" />
+      <workItem from="1695971547966" duration="6939000" />
+      <workItem from="1695991693023" duration="431000" />
+      <workItem from="1696045681300" duration="926000" />
+      <workItem from="1696047191481" duration="126000" />
+      <workItem from="1696047401054" duration="54000" />
+      <workItem from="1696048256354" duration="5678000" />
     </task>
     <task id="LOCAL-00001" summary="create new">
       <option name="closed" value="true" />
@@ -227,15 +273,56 @@
       <option name="project" value="LOCAL" />
       <updated>1695365672573</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix">
+      <option name="closed" value="true" />
+      <created>1695485725890</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695485725890</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix">
+      <option name="closed" value="true" />
+      <created>1695485749348</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695485749348</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/host" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create new" />
     <MESSAGE value="CURD Employee" />
-    <option name="LAST_COMMIT_MESSAGE" value="CURD Employee" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="load and ínert" />
+    <option name="LAST_COMMIT_MESSAGE" value="load and ínert" />
   </component>
 </project>

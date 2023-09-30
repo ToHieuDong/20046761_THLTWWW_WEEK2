@@ -1,8 +1,9 @@
-package com.example.thltwww_week2.models;
+package com.example.thltwww_week2.backend.models;
 
-import com.example.thltwww_week2.enums.EmployeeStatus;
+import com.example.thltwww_week2.backend.enums.EmployeeStatus;
 import jakarta.persistence.*;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity
@@ -16,7 +17,7 @@ public class Employee {
     private String fullname;
     @Column(name = "dob", columnDefinition = "DateTime", nullable = false)
 
-    private LocalDateTime dob;
+    private LocalDate dob;
     @Column(name = "email", length = 50, nullable = false)
 
     private String email;
@@ -31,7 +32,7 @@ public class Employee {
 
     private EmployeeStatus status;
 
-    public Employee(long employeeId, String fullname, LocalDateTime dob, String email, String address, String phone, EmployeeStatus status) {
+    public Employee(long employeeId, String fullname, LocalDate dob, String email, String address, String phone, EmployeeStatus status) {
         this.employeeId = employeeId;
         this.fullname = fullname;
         this.dob = dob;
@@ -57,11 +58,11 @@ public class Employee {
         this.fullname = fullname;
     }
 
-    public LocalDateTime getDob() {
+    public LocalDate getDob() {
         return dob;
     }
 
-    public void setDob(LocalDateTime dob) {
+    public void setDob(LocalDate dob) {
         this.dob = dob;
     }
 

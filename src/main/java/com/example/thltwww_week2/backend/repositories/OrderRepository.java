@@ -1,25 +1,25 @@
-package com.example.thltwww_week2.repositories;
+package com.example.thltwww_week2.backend.repositories;
 
-import com.example.thltwww_week2.models.Employee;
+import com.example.thltwww_week2.backend.models.Order;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
 
 import java.util.List;
 
-public class EmployeeRepository {
+public class OrderRepository {
     private EntityManager manager;
     private EntityTransaction transaction;
 
-    public EmployeeRepository() {
+    public OrderRepository() {
         manager = Persistence.createEntityManagerFactory("week2").createEntityManager();
         transaction = manager.getTransaction();
     }
 
-    public void addEmployee(Employee employee) {
+    public void addOrder(Order order) {
         try {
             transaction.begin();
-            manager.persist(employee);
+            manager.persist(order);
             transaction.commit();
         } catch (Exception e) {
             e.printStackTrace();
@@ -27,10 +27,10 @@ public class EmployeeRepository {
         }
     }
 
-    public void updateEmployee(Employee employee) {
+    public void updateOrder(Order order) {
         try {
             transaction.begin();
-            manager.merge(employee);
+            manager.merge(order);
             transaction.commit();
         } catch (Exception e) {
             e.printStackTrace();
@@ -38,12 +38,12 @@ public class EmployeeRepository {
         }
     }
 
-    public Employee findByIDEmployee(long id) {
-        Employee em = new Employee();
+    public Order findByIdOrder(long id) {
+        Order em = new Order();
         try {
             transaction.begin();
 
-            em = manager.find(Employee.class, id);
+            em = manager.find(Order.class, id);
 
             transaction.commit();
         } catch (Exception e) {
@@ -53,18 +53,7 @@ public class EmployeeRepository {
         return em;
     }
 
-    public List<Employee> getAllEmployee() {
-        return manager.createNativeQuery("select * from employee", Employee.class).getResultList();
+    public List<Order> getAllOrder() {
+        return manager.createNativeQuery("select * from order", Order.class).getResultList();
     }
-
-
-
-
-
-
-
-
-
-
-
 }

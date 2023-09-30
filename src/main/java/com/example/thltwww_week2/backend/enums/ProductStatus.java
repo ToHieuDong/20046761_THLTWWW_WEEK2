@@ -1,4 +1,4 @@
-package com.example.thltwww_week2.enums;
+package com.example.thltwww_week2.backend.enums;
 
 public enum ProductStatus {
     ACTIVE(1), DEACTIVE(0), DELETE(-1);

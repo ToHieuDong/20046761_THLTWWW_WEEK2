@@ -1,4 +1,4 @@
-package com.example.thltwww_week2.configs;
+package com.example.thltwww_week2.backend.configs;
 
 import jakarta.ws.rs.ApplicationPath;
 import jakarta.ws.rs.core.Application;

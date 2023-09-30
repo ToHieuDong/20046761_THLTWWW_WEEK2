@@ -1,4 +1,4 @@
-package com.example.thltwww_week2.models;
+package com.example.thltwww_week2.backend.models;
 
 import jakarta.persistence.*;
 

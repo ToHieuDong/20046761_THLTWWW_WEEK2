@@ -1,4 +1,4 @@
-package com.example.thltwww_week2.enums;
+package com.example.thltwww_week2.backend.enums;
 
 public enum EmployeeStatus {
     ACTIVE(1),

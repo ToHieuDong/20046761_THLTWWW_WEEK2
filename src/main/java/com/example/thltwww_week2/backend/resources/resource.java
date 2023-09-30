@@ -1,11 +1,10 @@
-package com.example.thltwww_week2.resources;
+package com.example.thltwww_week2.backend.resources;
 
-import com.example.thltwww_week2.models.Employee;
-import com.example.thltwww_week2.services.EmployeeService;
+import com.example.thltwww_week2.backend.models.Employee;
+import com.example.thltwww_week2.backend.services.EmployeeService;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
-import jakarta.ws.rs.*;
 
 import java.util.List;
 
