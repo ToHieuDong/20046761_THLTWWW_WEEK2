@@ -11,7 +11,8 @@ public class ProductImage {
     private long imageId;
     @Column(name = "alternative", length = 50)
     private String alternative;
-    @Column(name = "path", length = 50)
+    @Lob
+    @Column(name = "path", length = 255)
     private String path;
 
     @ManyToOne
@@ -21,10 +22,10 @@ public class ProductImage {
     public ProductImage() {
     }
 
-    public ProductImage(long imageId, String alternative, String path) {
-        this.imageId = imageId;
-        this.alternative = alternative;
+    public ProductImage(String path,  String alternative, Product product) {
         this.path = path;
+        this.alternative = alternative;
+        this.product=product;
     }
 
     public long getImageId() {

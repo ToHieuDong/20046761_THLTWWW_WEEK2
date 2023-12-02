@@ -5,8 +5,8 @@
   <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %></h1>
 <br/>
 <a href="controls?action=emp_lst">Employee</a>
+<a href="controls?action=pro_lst">Product</a>
 </body>
 </html>

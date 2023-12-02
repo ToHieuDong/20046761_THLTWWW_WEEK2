@@ -32,8 +32,7 @@ public class Employee {
 
     private EmployeeStatus status;
 
-    public Employee(long employeeId, String fullname, LocalDate dob, String email, String address, String phone, EmployeeStatus status) {
-        this.employeeId = employeeId;
+    public Employee(String fullname, LocalDate dob, String email, String address, String phone, EmployeeStatus status) {
         this.fullname = fullname;
         this.dob = dob;
         this.email = email;

@@ -1,16 +1,14 @@
 package com.example.thltwww_week2.backend.models;
 
 import com.example.thltwww_week2.backend.enums.ProductStatus;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "product")
 public class Product {
     @Id
     @Column(name = "product_id", length = 50)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long product_id;
     @Column(name = "description", length = 50)
     private String description;
@@ -86,8 +84,7 @@ public class Product {
         this.status = status;
     }
 
-    public Product(long product_id, String description, String manufacturer, String name, String unit, ProductStatus status) {
-        this.product_id = product_id;
+    public Product(String description, String manufacturer, String name, String unit, ProductStatus status) {
         this.description = description;
         this.manufacturer = manufacturer;
         this.name = name;
