@@ -8,8 +8,9 @@ Yêu cầu:
 - Tạo các trang web cho việc hiển thị sản phẩm, chọn vào giỏ hàng và thanh toán (giả lập
 việc thanh toán qua thẻ nếu có thể)
 
-![CURD Employee](img/week2.png)
+# CURD Employee
+![](img/week2.png)
 
-Demo mua sản phẩm
+# Demo mua sản phẩm
 https://github.com/ToHieuDong/20046761_THLTWWW_WEEK2/assets/144570416/8359643a-6783-4234-9c79-68a4fc051426
 
