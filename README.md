@@ -9,7 +9,7 @@ Yêu cầu:
 việc thanh toán qua thẻ nếu có thể)
 
 # CURD Employee
-![](img/week2.png)
+![](img/emp.png)
 
 # Demo mua sản phẩm
 https://github.com/ToHieuDong/20046761_THLTWWW_WEEK2/assets/144570416/8359643a-6783-4234-9c79-68a4fc051426
